@@ -1,11 +1,20 @@
 {
-  "name": "v-cli",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "vuetomic",
+  "version": "1.0.1",
+  "description": "Create atomic components with a CLI",
+  "main": "src/index.js",
   "bin": {
-    "vcli": "index.js"
+    "vuetomic": "src/index.js"
   },
+  "license": "MIT",
+  "keywords": [
+    "atomic",
+    "atomic-design",
+    "vue",
+    "vue-cli",
+    "vue create component"
+  ],
+  "author": "Gabriel Moraes",
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.2.0",
