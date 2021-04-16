@@ -1,0 +1,16 @@
+{
+  "name": "v-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "vcli": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^8.0.0",
+    "shelljs": "^0.8.4"
+  }
+}
