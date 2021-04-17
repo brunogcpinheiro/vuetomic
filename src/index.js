@@ -36,7 +36,7 @@ const questions = [
     type: 'list',
     name: 'type',
     message: 'What atomic level?',
-    choices: ['atoms', 'molecules', 'organisms', 'templates']
+    choices: ['bosons', 'quarks', 'atoms', 'molecules', 'organisms', 'templates']
   },
   {
     type: 'input',
