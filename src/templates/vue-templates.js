@@ -1,6 +1,36 @@
 module.exports = {
   ts: name => `<template>
-  <div></div>
+  <div class="component"></div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: '${name}'
+})
+</script>
+
+<style lang="scss" scoped>
+.component {}
+</style>`,
+
+  js: name => `<template>
+  <div class="component"></div>
+</template>
+
+<script>
+export default {
+  name: '${name}'
+}
+</script>
+
+<style lang="scss" scoped>
+.component {}
+</style>`,
+
+  'nuxt-ts': name => `<template>
+  <div class="component"></div>
 </template>
 
 <script lang="ts">
@@ -11,16 +41,7 @@ export default Vue.extend({
 })
 </script>
 
-<style lang="scss" scoped></style>`,
-  js: name => `<template>
-  <div></div>
-</template>
-
-<script>
-export default {
-  name: '${name}'
-}
-</script>
-
-<style lang="scss" scoped></style>`
+<style lang="scss" scoped>
+.component {}
+</style>`
 }
